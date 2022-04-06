@@ -14,7 +14,7 @@ const App = () => {
     return(
         <div className="rotulo">
             <label>Primeiro Valor: </label>
-            <input id='valores'></input><br/><br/>
+            <input id='valores'></input><br/>
             <label>Segundo Valor: </label>
             <input id='valores'></input>
         </div>
