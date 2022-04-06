@@ -1,0 +1,14 @@
+.rotulo{
+    margin: 'auto';
+    width: 768px;
+    height: 255px;
+    background-color: #EEE;
+    padding: 12;
+    border: solid darkgray;
+    border-radius: 8px;
+    border-width: 0.5px
+}
+#valores{
+    border-radius: 4px;
+    width: 100px;
+}

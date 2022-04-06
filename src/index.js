@@ -1,17 +1,22 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import * as funcoes from './ex02'
+import './styles.css'
+//import * as funcoes from './ex02'
 
 const App = () => {
-    const f = {
+    /*const f = {
         soma: funcoes.Soma(),
         subtracao: funcoes.Sub(),
         multiplicacao: funcoes.Mult(),
         divisao: funcoes.Div()
-    }
+    }*/
     
     return(
-        <div>
+        <div className="rotulo">
+            <label>Primeiro Valor: </label>
+            <input id='valores'></input><br/><br/>
+            <label>Segundo Valor: </label>
+            <input id='valores'></input>
         </div>
     )
 }
