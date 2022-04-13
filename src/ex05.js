@@ -15,3 +15,8 @@ e de tomar o cuidado de não armazená-lo no sistema de controle de versão.*/
 
 require('dotenv').config()
 const axios = require('axios')
+
+const {PROTOCOL, BASE_URL, LAT, LON, APPID} = process.env
+const url = `${PROTOCOL}://${BASE_URL}?lat=${LAT}&lon=${LON}&appid=${APPID}`
+
+axios.get(url)
