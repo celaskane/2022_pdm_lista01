@@ -14,7 +14,3 @@ function mult(x, y){
 function div(x, y){
     return x / y
 }
-console.log(soma(2,3))
-console.log(sub(2,3))
-console.log(mult(2,3))
-console.log(div(2,3))
